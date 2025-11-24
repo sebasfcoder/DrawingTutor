@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Tutor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Sensei Yuki ✏️</div>
+            <div class="lang-toggle">
+                <button class="lang-btn active" data-lang="en" onclick="setLanguage('en')">🇺🇸</button>
+                <button class="lang-btn" data-lang="es" onclick="setLanguage('es')">🇪🇸</button>
+            </div>
+        </header>
+        
+        <main id="main-content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

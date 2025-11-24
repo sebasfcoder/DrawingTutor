@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+    <h1 data-i18n="welcome">Welcome, Student!</h1>
+    <p data-i18n="intro">Ready to become a Manga Master? Choose a lesson below.</p>
+</div>
+
+<div id="modules-list">
+    <!-- Populated by JS -->
+    <div class="loading">Loading curriculum...</div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', loadCurriculum);
+</script>
+{% endblock %}

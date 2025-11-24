@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #FF6B6B; /* Pastel Red/Pink */
+    --secondary-color: #4ECDC4; /* Pastel Teal */
+    --accent-color: #FFE66D; /* Pastel Yellow */
+    --text-color: #2C3E50;
+    --bg-color: #F7F9FC;
+    --card-bg: #FFFFFF;
+    --font-main: 'Outfit', sans-serif;
+    --font-heading: 'Bangers', cursive; /* Manga style font */
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 2px solid var(--text-color);
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px var(--text-color);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border: 2px solid var(--text-color);
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 4px 4px 0px var(--text-color);
+    transition: transform 0.1s, box-shadow 0.1s;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px var(--text-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+}
+
+/* Cards */
+.card {
+    background: var(--card-bg);
+    border: 2px solid var(--text-color);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.1);
+}
+
+/* Lesson List */
+.module-title {
+    color: var(--secondary-color);
+    margin-top: 30px;
+    border-bottom: 2px dashed var(--text-color);
+    padding-bottom: 10px;
+}
+
+.lesson-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid var(--text-color);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: white;
+    transition: transform 0.2s;
+}
+
+.lesson-item:hover {
+    transform: scale(1.02);
+}
+
+/* Drawing Area */
+.drawing-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#camera-preview {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid var(--text-color);
+    border-radius: 8px;
+    display: none;
+}
+
+#feedback-area {
+    background-color: #FFF3CD;
+    border: 2px solid var(--text-color);
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    margin-top: 20px;
+    display: none;
+}
+
+.sensei-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    border: 2px solid var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* Language Toggle */
+.lang-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+.lang-btn.active {
+    opacity: 1;
+    transform: scale(1.2);
+}

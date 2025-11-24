@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="lesson-header">
+    <a href="/" class="btn btn-secondary" data-i18n="back">← Back</a>
+    <h1 id="lesson-title">Lesson Title</h1>
+</div>
+
+<div class="card">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h2 data-i18n="instructions">Instructions</h2>
+        <button class="btn btn-secondary" onclick="speakInstructions()" style="padding: 5px 10px; font-size: 0.9rem;">🔊
+            Listen</button>
+    </div>
+    <p id="lesson-description">...</p>
+    <div class="task-box">
+        <h3 data-i18n="your_task">Your Task:</h3>
+        <p id="lesson-task">...</p>
+    </div>
+
+    <div class="examples-section" style="margin-top: 20px;">
+        <h3 data-i18n="examples">Examples</h3>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 250px;">
+                <h4 style="color: #27ae60;">✅ Good Example</h4>
+                <img id="example-good" src="" alt="Good Example" style="width: 100%; border-radius: 8px; border: 2px solid #27ae60;">
+            </div>
+            <div style="flex: 1; min-width: 250px;">
+                <h4 style="color: #c0392b;">❌ Common Mistakes</h4>
+                <div id="examples-bad-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <!-- Bad examples will be injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card drawing-area">
+    <h2 data-i18n="upload_title">Show Sensei Your Work!</h2>
+
+    <div class="controls">
+        <button class="btn" onclick="startCamera()" data-i18n="camera_btn">📷 Open Camera</button>
+        <input type="file" id="file-upload" accept="image/*" style="display: none" onchange="handleFileUpload(this)">
+        <button class="btn btn-secondary" onclick="document.getElementById('file-upload').click()"
+            data-i18n="upload_btn">📁 Upload File</button>
+        <button class="btn btn-secondary" onclick="testAudio()" style="margin-left: 10px;">🔊 Test Audio</button>
+    </div>
+
+    <video id="camera-preview" autoplay playsinline></video>
+    <canvas id="snapshot-canvas" style="display:none;"></canvas>
+    <img id="image-preview" style="max-width: 100%; display: none; border-radius: 8px; border: 2px solid #2C3E50;">
+
+    <button id="analyze-btn" class="btn" style="display:none; width: 100%; font-size: 1.2rem;"
+        onclick="analyzeDrawing()" data-i18n="analyze_btn">✨ Analyze Drawing</button>
+</div>
+
+<div id="feedback-area">
+    <div class="sensei-avatar">👨‍🏫</div>
+    <h3>Sensei Yuki says:</h3>
+    <p id="feedback-text">...</p>
+    <button class="btn btn-secondary" onclick="speakFeedback()">🔊 Listen to Sensei</button>
+</div>
+
+<script>
+    const lessonId = "{{ lesson_id }}"; // Passed from backend if we used server-side rendering, but we'll fetch client-side for SPA feel or just use URL param
+    // Actually, let's just parse URL for simplicity in this prototype
+    // Wait, I need to pass the ID. Let's use a script to set it from the route if I render this template for a specific ID.
+    // For now, let's assume the frontend fetches details based on ID in URL.
+</script>
+{% endblock %}

@@ -1,0 +1,596 @@
+[
+    {
+        "id": "1",
+        "title": {
+            "en": "Module 1: Manga Inking",
+            "es": "Módulo 1: Entintado Manga"
+        },
+        "lessons": [
+            {
+                "id": "1.1",
+                "title": {
+                    "en": "The G-Pen Feel",
+                    "es": "La Sensación de la Pluma G"
+                },
+                "description": {
+                    "en": "Manga lines are rarely uniform. They start thin, get thick, and end thin. This is called 'tapering'.",
+                    "es": "Las líneas manga rara vez son uniformes. Empiezan finas, se engrosan y terminan finas. Esto se llama 'afilar'."
+                },
+                "task": {
+                    "en": "Draw 10 tapered lines that look like blades of grass. Press down in the middle and lift at the end.",
+                    "es": "Dibuja 10 líneas afiladas que parezcan hojas de hierba. Presiona en el medio y levanta al final."
+                },
+                "example_good": "/static/img/m1_l1_good.png",
+                "examples_bad": [
+                    "/static/img/m1_l1_bad.png"
+                ]
+            },
+            {
+                "id": "1.2",
+                "title": {
+                    "en": "Hatching & Speed Lines",
+                    "es": "Tramas y Líneas de Velocidad"
+                },
+                "description": {
+                    "en": "Use fast, parallel strokes to create shading or motion. Don't cross them yet!",
+                    "es": "Usa trazos rápidos y paralelos para crear sombra o movimiento. ¡No los cruces todavía!"
+                },
+                "task": {
+                    "en": "Fill a square with vertical speed lines. Keep them straight!",
+                    "es": "Llena un cuadrado con líneas de velocidad verticales. ¡Mantenlas rectas!"
+                },
+                "example_good": "/static/img/m1_l2_good.png",
+                "examples_bad": [
+                    "/static/img/m1_l2_bad.png"
+                ]
+            },
+            {
+                "id": "1.3",
+                "title": {
+                    "en": "Cross-hatching Fun",
+                    "es": "Diversión con Tramas Cruzadas"
+                },
+                "description": {
+                    "en": "Cross-hatching is when you layer lines in different directions to create darker shadows.",
+                    "es": "El tramado cruzado es cuando superpones líneas en diferentes direcciones para crear sombras más oscuras."
+                },
+                "task": {
+                    "en": "Draw a cute pet and give it a shadow using cross-hatching.",
+                    "es": "Dibuja una mascota linda y dale una sombra usando tramas cruzadas."
+                },
+                "example_good": "/static/img/m1_l3_good.png",
+                "examples_bad": [
+                    "/static/img/m1_l3_bad.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": {
+            "en": "Module 2: The Manga Eye",
+            "es": "Módulo 2: El Ojo Manga"
+        },
+        "lessons": [
+            {
+                "id": "2.1",
+                "title": {
+                    "en": "Shonen vs Shojo",
+                    "es": "Shonen vs Shojo"
+                },
+                "description": {
+                    "en": "Shonen eyes are often sharper and wider. Shojo eyes are taller, with more lashes and sparkles.",
+                    "es": "Los ojos Shonen suelen ser más afilados y anchos. Los ojos Shojo son más altos, con más pestañas y brillos."
+                },
+                "task": {
+                    "en": "Draw one sharp 'Action' eye and one sparkly 'Romance' eye.",
+                    "es": "Dibuja un ojo de 'Acción' afilado y un ojo de 'Romance' brillante."
+                },
+                "example_good": "/static/img/m2_l1_good.png",
+                "examples_bad": [
+                    "/static/img/m2_l1_bad_mixed.png"
+                ]
+            },
+            {
+                "id": "2.2",
+                "title": {
+                    "en": "The Highlights",
+                    "es": "Los Brillos"
+                },
+                "description": {
+                    "en": "The white reflection in the eye gives it life. Never color over it!",
+                    "es": "El reflejo blanco en el ojo le da vida. ¡Nunca lo pintes encima!"
+                },
+                "task": {
+                    "en": "Draw a pair of eyes with two distinct highlights in each iris.",
+                    "es": "Dibuja un par de ojos con dos brillos distintos en cada iris."
+                },
+                "example_good": "/static/img/m2_l2_good_highlights.png",
+                "examples_bad": [
+                    "/static/img/m2_l2_bad_nohighlights.png"
+                ]
+            },
+            {
+                "id": "2.3",
+                "title": {
+                    "en": "Emotion in Eyes",
+                    "es": "Emoción en los Ojos"
+                },
+                "description": {
+                    "en": "The shape of the eye changes with emotion. Happy eyes arch up, sad eyes arch down.",
+                    "es": "La forma del ojo cambia con la emoción. Los ojos felices se arquean hacia arriba, los tristes hacia abajo."
+                },
+                "task": {
+                    "en": "Draw a 'Happy' eye (arched up) and a 'Sad' eye (arched down).",
+                    "es": "Dibuja un ojo 'Feliz' (arqueado hacia arriba) y un ojo 'Triste' (arqueado hacia abajo)."
+                },
+                "example_good": "/static/img/m2_l3_good_emotions.png",
+                "examples_bad": [
+                    "/static/img/m2_l3_bad_flat.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": {
+            "en": "Module 3: Manga Symbols",
+            "es": "Módulo 3: Símbolos Manga"
+        },
+        "lessons": [
+            {
+                "id": "3.1",
+                "title": {
+                    "en": "The Sweat Drop",
+                    "es": "La Gota de Sudor"
+                },
+                "description": {
+                    "en": "Used when a character is nervous, embarrassed, or exasperated. Place it high on the head.",
+                    "es": "Se usa cuando un personaje está nervioso, avergonzado o exasperado. Ponla alto en la cabeza."
+                },
+                "task": {
+                    "en": "Draw a face with a giant sweat drop.",
+                    "es": "Dibuja una cara con una gota de sudor gigante."
+                },
+                "example_good": "/static/img/m3_l1_good_sweat.png",
+                "examples_bad": [
+                    "/static/img/m3_l1_bad_small.png"
+                ]
+            },
+            {
+                "id": "3.2",
+                "title": {
+                    "en": "The Popping Vein",
+                    "es": "La Vena Saltada"
+                },
+                "description": {
+                    "en": "A cross-shape symbol used to show anger or annoyance.",
+                    "es": "Un símbolo en forma de cruz usado para mostrar ira o molestia."
+                },
+                "task": {
+                    "en": "Draw an angry chibi face with a popping vein symbol.",
+                    "es": "Dibuja una cara chibi enojada con el símbolo de la vena saltada."
+                },
+                "example_good": "/static/img/m3_l2_good_vein.png",
+                "examples_bad": [
+                    "/static/img/m3_l2_bad_notangry.png"
+                ]
+            },
+            {
+                "id": "3.3",
+                "title": {
+                    "en": "Sparkles & Flowers",
+                    "es": "Brillos y Flores"
+                },
+                "description": {
+                    "en": "Shojo manga uses sparkles and flowers to show beauty, romance, or a happy mood.",
+                    "es": "El manga Shojo usa brillos y flores para mostrar belleza, romance o un estado de ánimo feliz."
+                },
+                "task": {
+                    "en": "Draw a character surrounded by 'Shojo' sparkles and flowers.",
+                    "es": "Dibuja un personaje rodeado de brillos y flores 'Shojo'."
+                },
+                "example_good": "/static/img/m3_l3_good_sparkles.png",
+                "examples_bad": [
+                    "https://placehold.co/400x400?text=Bad+Too+Few"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": {
+            "en": "Module 4: Head Angles",
+            "es": "Módulo 4: Ángulos de la Cabeza"
+        },
+        "lessons": [
+            {
+                "id": "4.1",
+                "title": {
+                    "en": "The Profile",
+                    "es": "El Perfil"
+                },
+                "description": {
+                    "en": "Side view of the face. Note the nose and chin alignment.",
+                    "es": "Vista lateral. Nota la alineación de nariz y barbilla."
+                },
+                "task": {
+                    "en": "Draw a character in profile view.",
+                    "es": "Dibuja un personaje de perfil."
+                },
+                "example_good": "/static/img/m4_l1_good_profile.png",
+                "examples_bad": [
+                    "/static/img/m4_l1_bad_flat.png"
+                ]
+            },
+            {
+                "id": "4.2",
+                "title": {
+                    "en": "The Selfie Angle (3/4 View)",
+                    "es": "El Ángulo Selfie (3/4)"
+                },
+                "description": {
+                    "en": "The 3/4 view is the most common angle. You can see a bit of the side of the head.",
+                    "es": "La vista de 3/4 es el ángulo más común. Puedes ver un poco del lado de la cabeza."
+                },
+                "task": {
+                    "en": "Draw a face turned slightly to the side, like taking a selfie.",
+                    "es": "Dibuja una cara girada ligeramente hacia un lado, como tomándose una selfie."
+                },
+                "example_good": "/static/img/m4_l2_good_34.png",
+                "examples_bad": [
+                    "/static/img/m4_l2_bad_front.png"
+                ]
+            },
+            {
+                "id": "4.3",
+                "title": {
+                    "en": "Looking Up",
+                    "es": "Mirando Hacia Arriba"
+                },
+                "description": {
+                    "en": "When looking up, the chin goes up and the ears go down.",
+                    "es": "Al mirar hacia arriba, la barbilla sube y las orejas bajan."
+                },
+                "task": {
+                    "en": "Draw a face looking up at the sky (high angle).",
+                    "es": "Dibuja una cara mirando hacia el cielo (ángulo alto)."
+                },
+                "example_good": "/static/img/m4_l3_good_up.png",
+                "examples_bad": [
+                    "/static/img/m4_l3_bad_normal.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": {
+            "en": "Module 5: The Body",
+            "es": "Módulo 5: El Cuerpo"
+        },
+        "lessons": [
+            {
+                "id": "5.1",
+                "title": {
+                    "en": "Head Ratios",
+                    "es": "Proporciones de Cabeza"
+                },
+                "description": {
+                    "en": "A standard manga character is 6-7 heads tall.",
+                    "es": "Un personaje manga estándar mide 6-7 cabezas."
+                },
+                "task": {
+                    "en": "Draw a stick figure that is 6 heads tall.",
+                    "es": "Dibuja una figura de palitos de 6 cabezas de alto."
+                },
+                "example_good": "/static/img/m5_l1_good_ratio.png",
+                "examples_bad": [
+                    "/static/img/m5_l1_bad_short.png"
+                ]
+            },
+            {
+                "id": "5.2",
+                "title": {
+                    "en": "Chibi Proportions",
+                    "es": "Proporciones Chibi"
+                },
+                "description": {
+                    "en": "Chibi characters are super cute and small, usually only 2 or 3 heads tall.",
+                    "es": "Los personajes Chibi son súper lindos y pequeños, usualmente solo miden 2 o 3 cabezas."
+                },
+                "task": {
+                    "en": "Draw a 'Chibi' character that is only 2 or 3 heads tall. Super cute!",
+                    "es": "Dibuja un personaje 'Chibi' que mida solo 2 o 3 cabezas. ¡Súper lindo!"
+                },
+                "example_good": "/static/img/m5_l2_good_chibi.png",
+                "examples_bad": [
+                    "/static/img/m5_l2_bad_lanky.png"
+                ]
+            },
+            {
+                "id": "5.3",
+                "title": {
+                    "en": "Peace Sign Hand",
+                    "es": "Mano con Signo de Paz"
+                },
+                "description": {
+                    "en": "Hands can be tricky! The peace sign is a classic manga pose.",
+                    "es": "¡Las manos pueden ser difíciles! El signo de la paz es una pose clásica del manga."
+                },
+                "task": {
+                    "en": "Draw a hand making the V-sign (peace sign).",
+                    "es": "Dibuja una mano haciendo el signo de la V (signo de paz)."
+                },
+                "example_good": "/static/img/m5_l3_good_peace.png",
+                "examples_bad": [
+                    "/static/img/m5_l3_bad_sausage.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "title": {
+            "en": "Module 6: Clothing",
+            "es": "Módulo 6: Ropa"
+        },
+        "lessons": [
+            {
+                "id": "6.1",
+                "title": {
+                    "en": "Folds & Gravity",
+                    "es": "Pliegues y Gravedad"
+                },
+                "description": {
+                    "en": "Clothes hang from tension points like shoulders.",
+                    "es": "La ropa cuelga de puntos de tensión como los hombros."
+                },
+                "task": {
+                    "en": "Draw a t-shirt hanging on a torso.",
+                    "es": "Dibuja una camiseta colgando en un torso."
+                },
+                "example_good": "/static/img/m6_l1_good_folds.png",
+                "examples_bad": [
+                    "/static/img/m6_l1_bad_stiff.png"
+                ]
+            },
+            {
+                "id": "6.2",
+                "title": {
+                    "en": "Accessories",
+                    "es": "Accesorios"
+                },
+                "description": {
+                    "en": "Accessories like bows, hats, and glasses add personality to your character.",
+                    "es": "Los accesorios como lazos, sombreros y gafas añaden personalidad a tu personaje."
+                },
+                "task": {
+                    "en": "Draw a character wearing a big bow or a cool hat.",
+                    "es": "Dibuja un personaje usando un gran lazo o un sombrero genial."
+                },
+                "example_good": "/static/img/m6_l2_good_accessories.png",
+                "examples_bad": [
+                    "/static/img/m6_l2_bad_floating.png"
+                ]
+            },
+            {
+                "id": "6.3",
+                "title": {
+                    "en": "School Uniform",
+                    "es": "Uniforme Escolar"
+                },
+                "description": {
+                    "en": "School uniforms are very common in manga. The sailor collar is a classic design.",
+                    "es": "Los uniformes escolares son muy comunes en el manga. El cuello marinero es un diseño clásico."
+                },
+                "task": {
+                    "en": "Draw a classic sailor-style school uniform collar.",
+                    "es": "Dibuja un cuello de uniforme escolar estilo marinero clásico."
+                },
+                "example_good": "/static/img/m6_l3_good_uniform.png",
+                "examples_bad": [
+                    "/static/img/m6_l3_bad_wrong.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "title": {
+            "en": "Module 7: Lighting",
+            "es": "Módulo 7: Iluminación"
+        },
+        "lessons": [
+            {
+                "id": "7.1",
+                "title": {
+                    "en": "Light Source",
+                    "es": "Fuente de Luz"
+                },
+                "description": {
+                    "en": "Decide where the light comes from to place shadows.",
+                    "es": "Decide de dónde viene la luz para poner sombras."
+                },
+                "task": {
+                    "en": "Draw a sphere with a shadow.",
+                    "es": "Dibuja una esfera con sombra."
+                },
+                "example_good": "/static/img/m7_l1_good_shadow.png",
+                "examples_bad": [
+                    "/static/img/m7_l1_bad_noshadow.png"
+                ]
+            },
+            {
+                "id": "7.2",
+                "title": {
+                    "en": "Hair Highlights",
+                    "es": "Brillos en el Cabello"
+                },
+                "description": {
+                    "en": "Shiny hair often has a 'halo' or 'angel ring' of light.",
+                    "es": "El cabello brillante a menudo tiene un 'halo' o 'anillo de ángel' de luz."
+                },
+                "task": {
+                    "en": "Add the 'Angel Ring' highlight to a character's hair.",
+                    "es": "Añade el brillo 'Anillo de Ángel' al cabello de un personaje."
+                },
+                "example_good": "/static/img/m7_l2_good_angel.png",
+                "examples_bad": [
+                    "/static/img/m7_l2_bad_matte.png"
+                ]
+            },
+            {
+                "id": "7.3",
+                "title": {
+                    "en": "Backlighting",
+                    "es": "Contraluz"
+                },
+                "description": {
+                    "en": "When the light is behind the character, they become a dark silhouette.",
+                    "es": "Cuando la luz está detrás del personaje, se convierten en una silueta oscura."
+                },
+                "task": {
+                    "en": "Draw a character in silhouette with light coming from behind.",
+                    "es": "Dibuja un personaje en silueta con luz viniendo desde atrás."
+                },
+                "example_good": "/static/img/m7_l3_good_backlight.png",
+                "examples_bad": [
+                    "/static/img/m7_l3_bad_bright.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "title": {
+            "en": "Module 8: Color",
+            "es": "Módulo 8: Color"
+        },
+        "lessons": [
+            {
+                "id": "8.1",
+                "title": {
+                    "en": "Skin Tones",
+                    "es": "Tonos de Piel"
+                },
+                "description": {
+                    "en": "Use soft pinks or oranges for blush.",
+                    "es": "Usa rosas o naranjas suaves para el rubor."
+                },
+                "task": {
+                    "en": "Color a face using 3 shades.",
+                    "es": "Colorea una cara usando 3 tonos."
+                },
+                "example_good": "/static/img/m8_l1_good_skin.png",
+                "examples_bad": [
+                    "/static/img/m8_l1_bad_flat.png"
+                ]
+            },
+            {
+                "id": "8.2",
+                "title": {
+                    "en": "Eye Gradient",
+                    "es": "Degradado de Ojos"
+                },
+                "description": {
+                    "en": "Manga eyes often fade from a dark color at the top to a light color at the bottom.",
+                    "es": "Los ojos manga a menudo se desvanecen de un color oscuro arriba a un color claro abajo."
+                },
+                "task": {
+                    "en": "Color an eye using a gradient from dark to light.",
+                    "es": "Colorea un ojo usando un degradado de oscuro a claro."
+                },
+                "example_good": "/static/img/m8_l2_good_gradient.png",
+                "examples_bad": [
+                    "/static/img/m8_l2_bad_solid.png"
+                ]
+            },
+            {
+                "id": "8.3",
+                "title": {
+                    "en": "Hair Shading",
+                    "es": "Sombreado de Cabello"
+                },
+                "description": {
+                    "en": "Use a base color and then a darker shade for the shadows under the hair strands.",
+                    "es": "Usa un color base y luego un tono más oscuro para las sombras debajo de los mechones de cabello."
+                },
+                "task": {
+                    "en": "Color hair with two tones: a base color and a darker shadow color.",
+                    "es": "Colorea el cabello con dos tonos: un color base y un color de sombra más oscuro."
+                },
+                "example_good": "/static/img/m8_l3_good_hair.png",
+                "examples_bad": [
+                    "/static/img/m8_l3_bad_one.png"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "title": {
+            "en": "Module 9: Composition",
+            "es": "Módulo 9: Composición"
+        },
+        "lessons": [
+            {
+                "id": "9.1",
+                "title": {
+                    "en": "Rule of Thirds",
+                    "es": "Regla de Tercios"
+                },
+                "description": {
+                    "en": "Place important elements on the grid lines.",
+                    "es": "Pon elementos importantes en las líneas de la cuadrícula."
+                },
+                "task": {
+                    "en": "Sketch a simple scene using the rule of thirds.",
+                    "es": "Boceta una escena simple usando la regla de tercios."
+                },
+                "example_good": "/static/img/m9_l1_good_thirds.png",
+                "examples_bad": [
+                    "/static/img/m9_l1_bad_center.png"
+                ]
+            },
+            {
+                "id": "9.2",
+                "title": {
+                    "en": "Dynamic Panels",
+                    "es": "Paneles Dinámicos"
+                },
+                "description": {
+                    "en": "Diagonal panels create excitement and action!",
+                    "es": "¡Los paneles diagonales crean emoción y acción!"
+                },
+                "task": {
+                    "en": "Draw a diagonal panel for an action scene.",
+                    "es": "Dibuja un panel diagonal para una escena de acción."
+                },
+                "example_good": "/static/img/m9_l2_good_dynamic.png",
+                "examples_bad": [
+                    "/static/img/m9_l2_bad_box.png"
+                ]
+            },
+            {
+                "id": "9.3",
+                "title": {
+                    "en": "Speech Bubbles",
+                    "es": "Globos de Texto"
+                },
+                "description": {
+                    "en": "Different bubbles mean different things. Spiky for shouting, fluffy for thinking.",
+                    "es": "Diferentes globos significan diferentes cosas. Puntiagudos para gritar, esponjosos para pensar."
+                },
+                "task": {
+                    "en": "Draw a shouting speech bubble (spiky) and a thinking bubble (cloud).",
+                    "es": "Dibuja un globo de grito (puntiagudo) y un globo de pensamiento (nube)."
+                },
+                "example_good": "/static/img/m9_l3_good_bubbles.png",
+                "examples_bad": [
+                    "/static/img/m9_l3_bad_wrong.png"
+                ]
+            }
+        ]
+    }
+]
